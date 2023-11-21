@@ -13,19 +13,23 @@
   }
 }
 
+.Coming-Soon {
+  padding : 24px;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(100, 26, 147);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(241, 241, 244)
 }
 
 .App-link {
-  color: #61dafb;
+  color: #52c1df;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +39,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+.child{ 
+  float: left;
+}
+.discordIcon{
+  padding-top: 27px;
+}
+.parent{
+  padding-top: 26px;
 }
