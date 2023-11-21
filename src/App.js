@@ -13,7 +13,7 @@ function App() {
         </Typography>
 
 
-        <img src={logo} width={500} height={300} />
+        <img src={logo} width={500}  style={{ maxWidth: "90%", height: "auto"}}/>
         <div className="parent">
           <div className="child" >
             <a href="https://twitter.com/SuperSoyManlets" >
